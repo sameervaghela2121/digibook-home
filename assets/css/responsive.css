@@ -171,8 +171,10 @@
 
 	.how-it-works-section .htw-inner .right {
 		row-gap: 32px;
+		flex-direction: column;
 		padding-top: 36px;
 		align-items: unset;
+		max-width: 320px;
 	}
 
 	.get-section .get-box {
@@ -231,10 +233,6 @@
 	.footer-section .footer-bottom .footer-social {
 		width: 100%;
 	}
-
-	.feature-section .feature-inner .feature-box {
-		width: calc(50% - 15px);
-	}
 }
 
 @media (max-width: 768px) {
@@ -284,7 +282,7 @@
 		padding: 50px 0px 34px 0px;
 	}
 
-	.footer-section .footer-form {
+	.footer-section .footer-newsletter {
 		margin-bottom: 60px;
 	}
 
@@ -295,32 +293,6 @@
 	.get-section .get-box h5 {
 		font-size: 20px;
 	}
-
-	.how-it-works-section .htw-inner .right {
-		padding-top: 0px;
-	}
-
-	.how-it-works-section .htw-inner .right .hit-content-box {
-		width: 100%;
-	}
-
-	.feature-section .feature-inner .feature-box {
-		width: calc(100% - 4px);
-	}
-
-	.how-it-works-section {
-		padding: 60px 0px 60px 0px;
-	}
-
-	.footer-section .footer-form .form-field.email,
-	.footer-section .footer-form .form-field.number {
-		width: 100%;
-	} 
-
-	.footer-section .footer-form .form-field.number {
-		float: clear;
-	}
-	
 }
 
 @media (max-width: 580px) {
@@ -337,15 +309,6 @@
 	.header-section .hero-wrapper .left h1 {
 		font-weight: 500;
 		letter-spacing: -0.4px;
-	}
-
-	.feature-section {
-		padding-top: 42px;
-	}
-
-	.feature-section h2 {
-		font-size: 30px;
-		font-weight: 500;
 	}
 
 	.footer-section h2 {
